@@ -1,0 +1,79 @@
+@import "_settings";  
+@media screen and (min-width: 767px) {
+body {
+    font-size: 18px;
+}
+.services__block__box--icon {
+    margin-right: 15px;
+}
+}
+@media screen and (min-width: 1024px) {
+   
+    body {
+        font-size: 20px;
+    }
+    .header {
+        height: 710px;
+    }
+    .slider {
+    max-width: 1241px;
+    margin: 0 auto;
+    padding-left: 39px;
+    }
+    position: relative;
+    max-width: 1241px;
+    margin: 0 auto;
+    padding-left: 39px;
+    .services {
+        padding-top: 87px;
+    }
+    .services {
+        padding-top: 83px;
+    }
+    .services__block__box--icon {
+        max-width: 111px;
+        height: 155px; 
+        // margin-right: 15px;
+    }
+    .services__block__box--text {
+        text-align: left;
+        padding: 0;
+    }
+    .row {
+        width: 100%;
+    }
+    .navbar-collapse {
+        position: static;
+        background-color: transparent;
+        
+    }
+    .nav-link {
+        color: $color-white;
+    }
+       
+}
+@media screen and (min-width: 1200px) { 
+    .header {
+        height: 688px;
+    }
+    .services__block__box--text {
+        min-width: 209px;
+    }
+}
+@media screen and (max-width: 1000px) {
+   
+    .row {
+        -webkit-box-pack: center !important;
+            -ms-flex-pack: center !important;
+                justify-content: center !important;
+        width: 90%;
+        div {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .slider__img {
+        max-width: 42%;
+        
+    }
+}

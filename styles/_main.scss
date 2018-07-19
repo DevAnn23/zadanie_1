@@ -1,0 +1,112 @@
+@import "_settings"; 
+.dot {
+    &:after {
+        content: ".";
+        color: $bg-icons-dot;
+    }
+}
+.row {
+    margin-right: auto;
+    margin-left: auto;
+}
+.fa-bars {
+    color: $color-white;
+}
+.header {
+    background-color: $bg-black;
+    height: 639px;
+}
+
+.navbar {
+    padding: 50px 15px;
+}
+
+.navbar-brand {
+    font-size: 2.5em;
+    letter-spacing: -5px;
+}
+.navbar-collapse {
+    position: absolute;
+    top: 73%;
+    right: 0px;
+    width: 100%;
+    background-color: $color-text;
+    z-index: 2;
+    padding-right: 10px;
+    text-align: right;
+}
+.strong {
+    font-weight: 900;
+  &.strong--dot {
+    @extend .dot;
+  }
+} 
+
+.nav-link {
+    font-size: 16px;
+    text-transform: none;
+    margin-left: 15px;
+}
+.slider {
+    position: relative;
+    .slider__title-main {
+        font-size: 6em;
+        font-weight: 100;
+        line-height: 0.91em;
+        letter-spacing: -6px;
+        padding-top: 74px;
+    }
+    .title {
+        line-height: 2.2em;
+    }
+    .slider__text {
+        max-width: 559px;
+    }
+}
+.slider__img {
+    float: right;
+}
+
+.title {
+    font-size: 2.1em;
+    letter-spacing: -2px;
+    font-weight: 100;
+}
+
+.section:nth-child(even) {
+    color: $section-main-heading;
+    .title {
+        @extend .dot;
+    }
+}
+.services {
+    padding-top: 139px;
+}
+.services__block {
+    margin-top: 2.4em;
+    padding-bottom: 77px;
+ 
+}
+.services__block__box {
+    margin: 0.3em 0;
+    color: $features-color;
+  
+}
+.services__block__box--text {
+text-align: center;
+}
+.services__block__box--icon {
+    font-size: 72px;
+    color: $color-white;
+    line-height: 155px;
+    text-align: center;
+    padding: 0;
+    width: 111px;
+    height: 155px;
+    background-color: $bg-icons-dot;
+}
+.services__block__box__heading {
+    font-size: 0.9em;
+    font-weight: 800;
+    line-height: 2.4em;
+}
